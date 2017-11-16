@@ -24,8 +24,8 @@ end
 
 
 def kesha_maker(array)
-  array.each do {|word| 
-    word.to_a 
+  array.each do {|word|
+    word.to_a
     word[2]="$"}
   end
 end
