@@ -32,7 +32,5 @@ end
 
 
 def find_a(array)
-collection=[]
-collection << array.starts_with?("a")}
-collection
+array.select do {|word| word[0] = a}
 end
