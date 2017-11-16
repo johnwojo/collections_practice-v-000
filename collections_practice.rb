@@ -43,4 +43,5 @@ end
 def add_s(array)
   array.collect do |word| word + "s"
   end
+  array = array[0],array[1]=feets,array[2],array[3]
 end
