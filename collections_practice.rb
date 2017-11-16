@@ -24,8 +24,9 @@ end
 
 
 def kesha_maker(array)
-  array.each do |word|
-    word.to_a
-    word[2]="$"
+  collection = []
+  array.each do |word| 
+    collection << word.to_a 
+    collection(word[2]="$")
   end
 end
