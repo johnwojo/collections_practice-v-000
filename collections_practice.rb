@@ -41,6 +41,6 @@ end
 
 def add_s(array)
   array.collect do |word| word + "s"
-    array[2]-"s"
   end
+  array[2]-"s"
 end
