@@ -24,6 +24,6 @@ end
 
 
 def kesha_maker(array)
-  array[2] = "$"
-  array.join(" , ")
+  array.split
+  array[1[3]] = "$"
 end
