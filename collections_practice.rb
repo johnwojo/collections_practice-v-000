@@ -28,5 +28,4 @@ def kesha_maker(array)
     word.to_a
     word[2]="$"
   end
-  end
 end
