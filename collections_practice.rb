@@ -28,4 +28,3 @@ def kesha_maker(array)
     word(3) = $
   end
 end
-
