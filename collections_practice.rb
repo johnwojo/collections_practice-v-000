@@ -33,5 +33,5 @@ end
 
 def find_a(array)
 collection=[]
-  array.detect{|word| collection << word.starts_with?("a")}
+  array.detect{|word| collection << array.starts_with?("a")}
 end
