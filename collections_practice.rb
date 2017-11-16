@@ -41,7 +41,8 @@ end
 
 
 def add_s(array)
-  array.collect do |word| word + "s"
+  collection = []
+  array.collect do |word| collection << word + "s"
   end
-  array = array[0],"feet",array[2],array[3]
+  final_collection = collection[0],"feet",collection[2],collection[3]
 end
