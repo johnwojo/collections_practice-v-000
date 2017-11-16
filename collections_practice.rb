@@ -33,5 +33,6 @@ end
 
 def find_a(array)
 collection=[]
-  array.detect {collection << array.starts_with?("a")}
+collection << array.starts_with?("a")}
+collection
 end
