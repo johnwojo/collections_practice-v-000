@@ -39,8 +39,8 @@ def sum_array(array)
   array.inject(0) { |result, element| result + element }
 end
 
+
 def add_s(array)
-  array.each_with_index.reject {|element,i|} i == 2}.collect do |word| word + "s"
+  array.collect do |word| word + "s"
   end
-end
 end
