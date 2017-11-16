@@ -43,5 +43,4 @@ def add_s(array)
   collection = []
   array.each do |word| collection << word + "s"
   end
-  collection
 end
