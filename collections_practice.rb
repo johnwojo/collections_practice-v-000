@@ -21,3 +21,8 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+
+def kesha_maker(array)
+  array[2] = $
+  array.join(" , ")
