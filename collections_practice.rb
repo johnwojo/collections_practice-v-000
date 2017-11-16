@@ -40,7 +40,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |word| word + "s"
+  array.each_with_index {element,i} i == 2}.collect do |word| word + "s"
   end
-  array[2]-"s"
 end
